@@ -1,6 +1,10 @@
 .cards-container{
     display: flex;
-    flex-direction: row;
     gap: 20px;
+    /* justify-content: center;
+    align-content: center; */
     margin: 40px;
+}
+.card-control{
+    margin-top: 90px;
 }

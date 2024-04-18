@@ -1,13 +1,14 @@
 import './App.css';
-import Homework02 from './homeworks/Homework02/Homework02';
+
+import Homework03 from './homeworks/Homework03/Homework03';
 
 function App() {
   return (
-  <div className="App">
- 
- <Homework02 />
+    <div className="App">
+      
+     <Homework03 />  
 
-  </div>
+    </div>
   )
 }
 
