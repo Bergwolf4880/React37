@@ -1,12 +1,12 @@
 import "./styles.css";
 
-function InputField({ label, name, placeholder }){
+function InputField({ label, type, placeholder }){
 
     return(
            
         <div className="input-field">
             <label>{label}</label>
-            <input name={name} placeholder={placeholder}></input>
+            <input type={type} placeholder={placeholder}></input>
         </div>
     )
 

@@ -14,8 +14,8 @@ const isPrimaryButton = true;
             <p className="login">Login form</p>
 
             <div className="input-field-wrapper">
-            <InputField label="Email" name="email" placeholder={emailPlaceholder}/>
-            <InputField label="Password" name="password" placeholder={pwdPlaceholder}/>
+            <InputField label="Email" type="email" placeholder={emailPlaceholder}/>
+            <InputField label="Password" type="password" placeholder={pwdPlaceholder}/>
             </div>
 
             <Button buttonName="Login" isPrimaryButton = {isPrimaryButton}/>
