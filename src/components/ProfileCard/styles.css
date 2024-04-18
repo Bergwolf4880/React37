@@ -1,0 +1,25 @@
+.profile-card{
+    border: 3px solid slategray;
+    border-radius: 5px;
+    height: auto;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(112, 128, 144, 0.419);
+    opacity: 0.6;
+    transition: opacity 0.7s ease;
+        
+}
+
+.profile-card:hover{
+    
+    opacity: 1;
+}
+
+.user-data{
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+
+
+}
