@@ -1,13 +1,11 @@
-import './styles.css';
+import "./styles.css";
 
-function Button(){
-const sendButtonName = 'Send';
-const getButtonName = 'Get';
-const isGetButton = true;
-
-    return (
-    <button className='main-button'>
-        {isGetButton? getButtonName:sendButtonName} data
-        </button>)
+function Button({ name, type = "button", onButtonClick }) {
+  return (
+    <button className="button-component" type={type} onClick={onButtonClick}>
+      {name}
+    </button>
+  );
 }
+
 export default Button;
