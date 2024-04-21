@@ -19,7 +19,7 @@ const onPlus = () =>{
             <div className="button-control">
                 <Button onButtonClick={onMinus} buttonName='-' />
             </div>
-            <p>{count}</p>
+            <p className="">{count}</p>
             <div className="button-control">
                 <Button onButtonClick={onPlus} buttonName='+' />
             </div>
