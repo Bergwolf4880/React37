@@ -1,25 +1,14 @@
 import "./styles.css"
-import Button from "../../components/Button/Button"
-import InputField from "../../components/InputField/InputField"
+import LoginForm from "../../components/LoginForm/LoginForm";
 
 function Homework03() {
 
-const emailPlaceholder = "Enter your email";
-const pwdPlaceholder = "Enter your password";
-const isPrimaryButton = true;
 
     return (
-        <div className="login-form-wrapper" >
+        <div className="homework03-container">
 
-            <p className="login">Login form</p>
+            <LoginForm />
 
-            <div className="input-field-wrapper">
-            <InputField label="Email" type="email" placeholder={emailPlaceholder}/>
-            <InputField label="Password" type="password" placeholder={pwdPlaceholder}/>
-            </div>
-
-            <Button buttonName="Login" isPrimaryButton = {isPrimaryButton}/>
-            
         </div>
     )
 
