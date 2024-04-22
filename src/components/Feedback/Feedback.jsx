@@ -1,5 +1,4 @@
 import "./styles.css";
-import "../Button/Button";
 import { useState } from "react";
 import Button from "../Button/Button";
 
@@ -9,10 +8,10 @@ function Feedback() {
     const [dislike, setDislike] = useState(0);
 
     const onLike = () => {
-        setLike((defaultValue) => defaultValue + 1);
+        setLike((actualValue) => actualValue + 1);
     }
     const onDislike = () => {
-        setDislike((defaultValue) => defaultValue + 1);
+        setDislike((actualValue) => actualValue + 1);
     }
     const resetResult = () => {
         setLike(0);
